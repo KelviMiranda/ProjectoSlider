@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Slider Show Images</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- script -->
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+    <main>
+        <div class="item active" style="--background:#ea3d41;">
+            <h2 class="title">Morango</h2>
+            <img src="./images/Morango-refrigerante-foregroundBlur.png" class="fruit" alt="Imagem de fruta">
+            <img src="./images/Morango-refrigerante.png" alt="Refrigerante" class="refri">
+        </div>
+
+        <div class="item" style="--background:#2d5643;">
+            <h2 class="title">Abacate</h2>
+            <img src="./images/Abacate-refrigerante-foregroundBlur.png" class="fruit" alt="Imagem de fruta">
+            <img src="./images/Abacate-refrigerante.png" alt="Refrigerante" class="refri">
+        </div>
+
+        <div class="item hidden" style="--background:#E7A043;">
+            <h2 class="title">Laranja</h2>
+            <img src="./images/Laranja-refrigerante-foregroundBlur.png" class="fruit" alt="Imagem de fruta">
+            <img src="./images/Laranja-refrigerante.png" alt="Refrigerante" class="refri">
+        </div>
+
+        <div class="arrow">
+            <button class="arrow__button" id="prev"> < </button>
+            <button class="arrow__button" id="next"> > </button>
+        </div>
+    </main>
+
+        <!-- Script -->
+        <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
